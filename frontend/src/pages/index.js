@@ -30,7 +30,7 @@ const IndexPage = () => (
       render={data => (
         <div className="uk-section">
           <div className="uk-container uk-container-large">
-            <h1>Strapi blog</h1>
+            <h1>Hi, I'm Saurabh</h1>
             <ArticlesComponent articles={data.allStrapiArticle.edges} />
           </div>
         </div>
