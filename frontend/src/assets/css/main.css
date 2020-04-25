@@ -3,13 +3,13 @@ a {
 }
 
 h1 {
-  font-family: Staatliches !important;
+  font-family: 'Scope One', serif !important;
   font-size: 120px !important;
 }
 
 #category {
-  font-family: Staatliches !important;
   font-weight: 500 !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 #title {
@@ -17,6 +17,7 @@ h1 {
   font-size: 22px !important;
   font-size: 1.375rem !important;
   line-height: 1.13636 !important;
+  font-family: 'Scope One', serif;
 }
 
 #banner {
@@ -32,7 +33,6 @@ h1 {
 
 .uk-navbar-container {
   background: #fff !important;
-  font-family: Staatliches !important;
 }
 
 img:hover {
