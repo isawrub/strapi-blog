@@ -13,6 +13,7 @@ export const query = graphql`
           title
           category {
             name
+            slug
           }
           image {
             publicURL
@@ -22,6 +23,7 @@ export const query = graphql`
     }
     category: strapiCategory(strapiId: { eq: $id }) {
       name
+      slug
     }
   }
 `

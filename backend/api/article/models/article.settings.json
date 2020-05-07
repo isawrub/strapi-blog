@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "articles",
   "info": {
@@ -28,8 +29,12 @@
       "required": true
     },
     "category": {
-      "model": "category",
-      "via": "articles"
+      "via": "articles",
+      "model": "category"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

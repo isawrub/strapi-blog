@@ -16,6 +16,7 @@ const IndexPage = () => (
               node {
                 strapiId
                 title
+                slug
                 category {
                   name
                 }
